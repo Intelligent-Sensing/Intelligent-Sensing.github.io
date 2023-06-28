@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Publications"
+    url: /_pages/Publications/
+  - title: "Members"
+    url: /_pages/Members/
+  # - title: "News"
+  #   url: /_pages/News/
+  # - title: "Activities"
+  #   url: /_pages/Activities/
