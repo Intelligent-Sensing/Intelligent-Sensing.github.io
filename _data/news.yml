@@ -10,6 +10,9 @@
 - date: 2023-12-14
   description: >
     '[Fourier ptychographic microscopy image stack reconstruction using implicit neural representations](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-12-1679&id=544513)' published in Optica.
+- date: 2023-12-11
+  description: >
+    Matt Chan presented "Replacing Ensemble Weather Predictions with Diffusion Models" at AGU.
 - date: 2023-10-02
   description: >
     '[TiDy-PSFs: Computational Imaging with Time-Averaged Dynamic Point-Spread-Functions](https://www.computer.org/csdl/proceedings-article/iccv/2023/071800k0623/1TJdmq6LXuE)' published in ICCV.
