@@ -1,15 +1,18 @@
+- date: 2024-02-26
+  description: >
+    Three papers accepted into CVPR.
 - date: 2023-12-29
   description: >
-    Chris received an NSF CAREER Award for "Neural Computational Imaging - A Path Towards Seeing Through Scattering".
+    Chris received an [NSF CAREER Award](https://cmns.umd.edu/news-events/news/christopher-metzler-nsf-career-award) for "Neural Computational Imaging - A Path Towards Seeing Through Scattering".
 - date: 2023-12-16
   description: >
     '[Multimodal Neural Surface Reconstruction: Recovering the Geometry and Appearance of 3D Scenes from Events and Grayscale Images](https://openreview.net/forum?id=8hz6X2GGnD)' and '[SUD2: Supervision by Denoising Diffusion Models for Image Reconstruction](https://arxiv.org/abs/2303.09642)' published in NeurIPS 2023 Workshop on Deep Learning for Inverse Problems.
 - date: 2023-12-14
   description: >
     '[Fourier ptychographic microscopy image stack reconstruction using implicit neural representations](https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-12-1679&id=544513)' published in Optica.
-- date: 2023-12-11
+- date: 2023-10-02
   description: >
-    Matt Chan presented "Replacing Ensemble Weather Predictions with Diffusion Models" at AGU.
+    '[TiDy-PSFs: Computational Imaging with Time-Averaged Dynamic Point-Spread-Functions](https://www.computer.org/csdl/proceedings-article/iccv/2023/071800k0623/1TJdmq6LXuE)' published in ICCV.
 - date: 2023-08-08
   description: >
     Sachin Shah received a Directed Energy Professional Society Research Grant Award.
