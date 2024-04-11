@@ -1,0 +1,131 @@
+---
+layout: splash
+---
+
+<style>
+	.authors {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.author {
+		display: inline-block;
+		margin: 0 1em;
+		font-size: 1em;
+		text-align: center;
+	}
+	.author > a {
+		color: #111;
+		text-decoration: none;
+	}
+	.author > a:hover {
+		text-decoration: underline;
+	}
+
+	.paper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#cite {
+		width: 100%;
+		font-size: 0.8em;
+		padding: 1em;
+		cursor: pointer;
+		position: relative;
+	}
+	#cite:after {
+		content: "📋";
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+	#cite > pre {
+		margin: 0;
+	}
+
+	/* Ripple effect */
+	.ripple {
+		background-position: center;
+		transition: background 0.8s;
+		background: #f5f5f5 radial-gradient(circle, transparent 1%, #f5f5f5 1%)
+			center/15000%;
+	}
+	.ripple:active {
+		background-color: #d8d9ed;
+		background-size: 100%;
+		transition: background 0s;
+	}
+
+	.paper_title {
+		margin-top: 1em;
+		text-align: center;
+	}
+
+	.venue {
+		font-size: 0.8em;
+		text-align: center;
+	}
+</style>
+
+<div class="paper">
+	<h1 class="paper_title">{{ page.title }}</h1>
+	<div class="authors">
+		{% for author in page.authors %} {% assign author_no_suffix = author |
+		remove: "*" %} {% assign author_info = site.data.collaborators | where:
+		"name", author_no_suffix | first %}
+		<span class="author">
+			{%- if author_info == nil -%}
+			<span>{{ author }}</span>
+			{%- else -%}
+			<a href="{{ author_info.url }}" target="_blank">{{ author }}</a>
+			{%- endif -%}
+		</span>
+		{% endfor %}
+	</div>
+	<em class="venue">
+		{{ page.venue }} &mdash; {{ page.date | date: "%Y" }}
+	</em>
+	<div>
+		{%- for link in page.links -%} [<a href="{{ link[1] }}" target="_blank"
+			>{{ link[0] }}</a
+		>] {% endfor %}
+	</div>
+	<div style="width: 100%"><hr /></div>
+
+	{% assign full_img_path = page.slug | prepend:
+	"/assets/images/papers/teasers/" | append: ".png" %} {% assign img_exists =
+	site.static_files | where: "path", full_img_path %} {% if img_exists.size >
+	0 %}
+	<img
+		class="paper_icon"
+		src="{{ full_img_path }}"
+		loading="lazy"
+		alt="{{ page.slug }} teaser"
+	/>
+	<br />
+	{% endif %}
+
+	<div>{{ content }}</div>
+
+	<div style="width: 100%"><hr /></div>
+	<div id="cite" class="ripple">
+		<pre><code>@article{ {{ page.authors | first | remove: "*" | split: " " | last }}{{ page.date | date: "%Y" }}{{ page.slug | split: ":" | first | split: " " | first }},
+  author    = { {% for author in page.authors %}{% assign parts = author | remove: "*" | split: " " %}{{
+		parts.last }}, {{ parts.first }}{% if parts.size == 3 %} {{ parts[1] }}{%
+		endif %}{% if forloop.last %}{% else %} and {% endif %}{% endfor %} },
+  title     = { {{ page.title }} },
+  journal   = { {{ page.venue }} },
+  year      = { {{  page.date | date: "%Y" }} },
+}</code></pre>
+	</div>
+</div>
+
+<script>
+	const bibtex = document.getElementById("cite");
+	bibtex.onclick = (evt) => {
+		navigator.clipboard.writeText(bibtex.innerText);
+	};
+</script>

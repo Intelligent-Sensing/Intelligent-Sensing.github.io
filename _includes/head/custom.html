@@ -1,0 +1,6 @@
+{% if page.collection == "papers" %} {% assign full_img_path = page.slug |
+prepend: "/assets/images/papers/icons/" | append: ".webp" %} {% assign
+img_exists = site.static_files | where: "path", full_img_path %} {% if
+img_exists.size > 0 %}
+<link rel="icon" type="image/webp" href="{{ full_img_path }}" />
+{% endif %} {% endif %}
