@@ -6,8 +6,8 @@ authors:
     - Haiyun Guo
     - Siyu Lin
     - Mingshu Liang
-    - Christopher A. Metzler
-    - Changhuei Yang
+    - Christopher A. Metzler**
+    - Changhuei Yang**
 links:
     paper: https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-12-1679
 venue: Optica
