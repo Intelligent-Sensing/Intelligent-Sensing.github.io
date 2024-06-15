@@ -7,7 +7,7 @@ authors:
     - Christopher A. Metzler
     - Jia-Bin Huang
 links:
-    paper: https://arxiv.org/pdf/2306.09348v2.pdf
+    paper: https://openaccess.thecvf.com/content/CVPR2024/html/Alzayer_Seeing_the_World_through_Your_Eyes_CVPR_2024_paper.html
     project: https://world-from-eyes.github.io/
 venue: Conference on Computer Vision and Pattern Recognition (CVPR)
 date: 2024-06-01

@@ -10,6 +10,7 @@ authors:
     - Yiannis Aloimonos
     - Christopher A. Metzler
 links:
+    paper: https://openaccess.thecvf.com/content/CVPR2024/html/Shah_CodedEvents_Optimal_Point-Spread-Function_Engineering_for_3D-Tracking_with_Event_Cameras_CVPR_2024_paper.html
 venue: Conference on Computer Vision and Pattern Recognition (CVPR)
 date: 2024-06-01
 ---
