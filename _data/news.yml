@@ -1,3 +1,12 @@
+- date: 2024-06-26
+  description: >
+    Chris received [Army Research Office Early Career Program Award](https://www.umiacs.umd.edu/about-us/news/metzler-receives-grant-advance-long-range-imaging-machine-learning).
+- date: 2024-06-20
+  description: >
+    [Coded Visual Odometry](https://prg.cs.umd.edu/CodedVO) published in IEEE Robotics and Automation Letters.
+- date: 2024-06-13
+  description: >
+    [High-Resolution Range Profile Target Recognition with Neuromorphic ADCs and Spiking Neural Networks](https://ieeexplore.ieee.org/abstract/document/10549488) presented at IEEE Radar Conference 2024.
 - date: 2024-05-31
   description: >
     [AONeuS](https://aoneus.github.io/) accepted into SIGGRAPH.
