@@ -50,6 +50,9 @@ feature_row:
   - image_path: /assets/images/sanjaya.png
     url : "https://sanjayaherath.me/"
     btn_label: "Sanjaya Herath"
+  - image_path: /assets/images/Anand.jpg
+    url : "https://www.linkedin.com/in/anand-idris/"
+    btn_label: "Anand Idris"
 
 feature_row2:
   - image_path: /assets/images/sample.jpg
@@ -94,7 +97,7 @@ feature_row5:
 # Principal Investigator
 {% include feature_row id="feature_row0" %}
 
-# Graduate Students
+# PhD Students
 {% include feature_row %}
 
 # Collaborators
