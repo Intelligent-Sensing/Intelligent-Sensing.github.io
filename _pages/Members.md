@@ -41,11 +41,6 @@ feature_row:
   - image_path: /assets/images/Janith.png
     url : "www.linkedin.com/in/janith-senanayaka-60805528a"
     btn_label: "Janith Senanayaka"
-
-  - image_path: /assets/images/Roksana.png
-    url : "https://www.linkedin.com/in/roksana-khanom-b9a6278b/"
-    btn_label: "Roksana Khanom"
-
   - image_path: /assets/images/HaomingCai2.jpg
     url : "https://www.google.com/"
     btn_label: "Haoming Cai"
@@ -66,6 +61,7 @@ feature_row2:
   - image_path: /assets/images/sample.jpg
     url : "https://www.google.com/"
     btn_label: "Haoming Cai"
+
 
 feature_row3:
 

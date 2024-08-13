@@ -1,15 +1,25 @@
+- date: 2024-08-19
+  description: >
+    Matt Ziemann, Isabelle Rathbun, and Rushil Joshi will present their work on event-based wavefront sensing and speckle denoising at the [SPIE Conference on Unconventional Imaging, Sensing, and Adaptive Optics 2024](https://spie.org/OPO/conferencedetails/unconventional-imaging#_=_).
+- date: 2024-07-28
+  description: >
+    Kevin presented [AONeuS](https://aoneus.github.io/) at SIGGRAPH.
+- date: 2024-07-16
+  description: >
+    Chris presented talks on multimodal 3D sensing and ptychography at the 2024 Optica Imaging Congress.
+# (https://www.optica.org/events/congress/imaging_and_applied_optics_congress/).
 - date: 2024-06-26
   description: >
-    Chris received [Army Research Office Early Career Program Award](https://www.umiacs.umd.edu/about-us/news/metzler-receives-grant-advance-long-range-imaging-machine-learning).
+    Chris received an [Army Research Office Early Career Program Award](https://www.umiacs.umd.edu/about-us/news/metzler-receives-grant-advance-long-range-imaging-machine-learning).
 - date: 2024-06-20
   description: >
     [Coded Visual Odometry](https://prg.cs.umd.edu/CodedVO) published in IEEE Robotics and Automation Letters.
 - date: 2024-06-13
   description: >
     [High-Resolution Range Profile Target Recognition with Neuromorphic ADCs and Spiking Neural Networks](https://ieeexplore.ieee.org/abstract/document/10549488) presented at IEEE Radar Conference 2024.
-- date: 2024-05-31
-  description: >
-    [AONeuS](https://aoneus.github.io/) accepted into SIGGRAPH.
+#- date: 2024-05-31
+#  description: >
+#    [AONeuS](https://aoneus.github.io/) accepted into SIGGRAPH.
 - date: 2024-05-19
   description: >
     Chris presented a tutorial on "Neural Signal Representations for Synthetic Aperture Imaging" at the [IEEE Conference on Computational Imaging Using Synthetic Apertures](https://2024.ieeecisa.org/) at NIST. 
@@ -22,9 +32,12 @@
 - date: 2024-04-05
   description: >
     The Intelligent Sensing Lab hosted a tutorial at Centennial High School's RISE conference. 
-- date: 2024-02-26
+- date: 2024-06-18
   description: >
-    [WaveMo](https://wavemo-2024.github.io/), [CodedEvents](https://intelligent-sensing.github.io/papers/CodedEvents.html), and [Seeing the World through Your Eyes](https://world-from-eyes.github.io/) accepted into CVPR.
+    [WaveMo](https://wavemo-2024.github.io/), [CodedEvents](https://intelligent-sensing.github.io/papers/CodedEvents.html), and [Seeing the World through Your Eyes](https://world-from-eyes.github.io/) presented at CVPR.
+#- date: 2024-02-26
+#  description: >
+#    [WaveMo](https://wavemo-2024.github.io/), [CodedEvents](https://intelligent-sensing.github.io/papers/CodedEvents.html), and [Seeing the World through Your Eyes](https://world-from-eyes.github.io/) accepted into CVPR.
 - date: 2023-12-29
   description: >
     Chris received an [NSF CAREER Award](https://cmns.umd.edu/news-events/news/christopher-metzler-nsf-career-award) for "Neural Computational Imaging - A Path Towards Seeing Through Scattering".
