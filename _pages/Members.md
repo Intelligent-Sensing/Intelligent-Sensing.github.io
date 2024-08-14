@@ -53,6 +53,9 @@ feature_row:
   - image_path: /assets/images/Anand.jpg
     url : "https://www.linkedin.com/in/anand-idris/"
     btn_label: "Anand Idris"
+  - image_path: /assets/images/Hirad.jpeg
+    url : "https://www.cs.umd.edu/people/hyazdan"
+    btn_label: "Hirad Yazdankhah"
 
 feature_row2:
   - image_path: /assets/images/sample.jpg
