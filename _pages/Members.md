@@ -19,7 +19,7 @@ feature_row:
     btn_label: "Kevin Zhang"
 
   - image_path: /assets/images/mingyang.jpg
-    url : "https://www.cs.umd.edu/people/mingyang"
+    url : "https://mingyangx.github.io"
     btn_label: "Mingyang Xie"
 
   - image_path: /assets/images/matt.jpg
@@ -39,10 +39,10 @@ feature_row:
     btn_label: "Isabelle Rathbun"
 
   - image_path: /assets/images/Janith.png
-    url : "www.linkedin.com/in/janith-senanayaka-60805528a"
+    url : "https://scholar.google.com/citations?user=8Qm2CL4AAAAJ&hl=en"
     btn_label: "Janith Senanayaka"
   - image_path: /assets/images/HaomingCai2.jpg
-    url : "https://www.google.com/"
+    url : "https://www.haomingcai.com/"
     btn_label: "Haoming Cai"
   - image_path: /assets/images/sachin.jpeg
     url : "https://www.sachinshah.com"
@@ -85,7 +85,7 @@ feature_row5:
     btn_label: "Brandon Feng (2021-2023)"
     excerpt: "Now Postdoc at MIT "
   - image_path: /assets/images/sazan.jpg
-    url : "https://www.cs.umd.edu/people/smahbub"
+    url : "https://sites.google.com/view/smahbub"
     btn_label: "Sazan Mahbub (2021-2023)"
     excerpt: "Now PhD Student at CMU"
   - image_path: /assets/images/sakshum.jpeg
