@@ -30,9 +30,6 @@ feature_row:
     url : "https://www.cs.umd.edu/people/mrziema2"
     btn_label: "Matt Ziemann"
 
-  - image_path: /assets/images/chenyi.jpeg
-    url : "https://chenyiling.pro/"
-    btn_label: "Chenyi Ling"
 
   - image_path: /assets/images/Isabelle.JPEG
     url : "https://www.linkedin.com/in/isabelle-rathbun-b42225247/"
@@ -56,6 +53,10 @@ feature_row:
   - image_path: /assets/images/Hirad.jpeg
     url : "https://www.cs.umd.edu/people/hyazdan"
     btn_label: "Hirad Yazdankhah"
+  - image_path: /assets/images/Tianfu.jfif
+    url : "https://www.linkedin.com/in/tianfu-wang-083a85156/"
+    btn_label: "Tianfu Wang"
+
 
 feature_row2:
   - image_path: /assets/images/Zhean.jfif
