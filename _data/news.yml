@@ -1,3 +1,21 @@
+- date: 2024-10-27
+  description: >
+    Chris presented an invited talk on uncertainty estimation at [Asilomar 2024](https://www.asilomarsscconf.org/).
+- date: 2024-09-25
+  description: >
+    Chris presented an invited talk on imaging through scattering media at [Frontiers in Optics 2024](https://www.frontiersinoptics.com/home/).
+- date: 2024-11-18
+  description: >
+    [Estimating Epistemic and Aleatoric Uncertainty with a Single Model](https://openreview.net/forum?id=WPxa6OcIdg) and [Temporally Consistent Atmospheric Turbulence Mitigation with Neural Representations](https://openreview.net/forum?id=WPxa6OcIdg) accepted in NeurIPS 2024.
+- date: 2024-11-06
+  description: >
+    [Event3DGS: Event-Based 3D Gaussian Splatting for High-Speed Robot Egomotion](https://openreview.net/forum?id=EyEE7547vy) published in CoRL 2024.
+- date: 2024-10-22
+  description: >
+    [A Scalable Training Strategy for Blind Multi-Distribution Noise Removal](https://ieeexplore.ieee.org/abstract/document/10729723) published in IEEE Transactions on Information Processing.
+- date: 2024-09-29
+  description: >
+    [Flash-Splat: 3D Reflection Removal with Flash Cues and Gaussian Splats](https://arxiv.org/abs/2410.02764) presented at ECCV.
 - date: 2024-08-19
   description: >
     Matt Ziemann, Isabelle Rathbun, and Rushil Joshi will present their work on event-based wavefront sensing and speckle denoising at the [SPIE Conference on Unconventional Imaging, Sensing, and Adaptive Optics 2024](https://spie.org/OPO/conferencedetails/unconventional-imaging#_=_).
