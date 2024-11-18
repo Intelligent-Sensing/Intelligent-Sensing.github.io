@@ -58,15 +58,9 @@ feature_row:
     btn_label: "Hirad Yazdankhah"
 
 feature_row2:
-  - image_path: /assets/images/sample.jpg
-    url : "https://www.google.com/"
-    btn_label: "Haoming Cai"
-  - image_path: /assets/images/sample.jpg
-    url : "https://www.google.com/"
-    btn_label: "Haoming Cai"
-  - image_path: /assets/images/sample.jpg
-    url : "https://www.google.com/"
-    btn_label: "Haoming Cai"
+  - image_path: /assets/images/Zhean.jfif
+    url: https://www.linkedin.com/in/zhean-shen-53835388/
+    btn_label: "Zhean Shen"
 
 
 feature_row3:
@@ -99,6 +93,9 @@ feature_row5:
 ---
 # Principal Investigator
 {% include feature_row id="feature_row0" %}
+
+# Postdoctoral Researchers
+{% include feature_row id="feature_row2" %}
 
 # PhD Students
 {% include feature_row %}
