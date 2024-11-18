@@ -39,7 +39,7 @@ feature_row:
     btn_label: "Isabelle Rathbun"
 
   - image_path: /assets/images/Janith.png
-    url : "https://scholar.google.com/citations?user=8Qm2CL4AAAAJ&hl=en"
+    url : "https://www.linkedin.com/in/janith-senanayaka"
     btn_label: "Janith Senanayaka"
   - image_path: /assets/images/HaomingCai2.jpg
     url : "https://www.haomingcai.com/"
