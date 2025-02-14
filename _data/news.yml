@@ -1,3 +1,12 @@
+- date: 2025-02-07
+  description: >
+    Matt Ziemann's paper on [designing low-probability-of-detect radar waveforms with machine learning](https://arxiv.org/abs/2403.12254) was accepted into IEEE Transactions on Radar Systems.
+- date: 2025-02-03
+  description: >
+    Matt Chan presented a lightning talk on uncertainty estimation at the [NYC CV Day](https://cs.nyu.edu/~fouhey/NYCVision2025/).
+- date: 2025-01-29
+  description: >
+    Chris presented an invited talk on uncertainty estimation at [BASP Frontiers](https://baspfrontiers.org/).
 - date: 2024-10-27
   description: >
     Chris presented an invited talk on uncertainty estimation at [Asilomar 2024](https://www.asilomarsscconf.org/).
