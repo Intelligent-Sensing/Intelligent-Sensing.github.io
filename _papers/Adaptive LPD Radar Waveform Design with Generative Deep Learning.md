@@ -4,7 +4,7 @@ authors:
     - Matthew R. Ziemann
     - Christopher A. Metzler
 links:
-    paper: https://arxiv.org/abs/2403.12254
+    paper: https://ieeexplore.ieee.org/document/10887245
 venue: IEEE Transactions on Radar Systems
 date: 2025-02-07
 ---
