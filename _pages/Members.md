@@ -63,6 +63,11 @@ feature_row2:
     url: https://www.linkedin.com/in/zhean-shen-53835388/
     btn_label: "Zhean Shen"
 
+feature_row6:
+  - image_path: /assets/images/garner.jpg
+    url: https://www.linkedin.com/in/garner-thompson-487416220/
+    btn_label: "Garner Thompson"
+
 
 feature_row3:
 
@@ -72,6 +77,13 @@ feature_row3:
   - image_path: /assets/images/Haiyun.jfif
     url : "https://scholar.google.com/citations?user=HW0Ocj8AAAAJ&hl=en"
     btn_label: "Haiyun Guo"
+  - image_path: /assets/images/Weiyun.jpg
+    url : "https://weiyunjiang.github.io/"
+    btn_label: "Weiyun Jiang"
+  - image_path: /assets/images/Russ.jpg
+    url : "https://www.linkedin.com/in/rshomberg/"
+    btn_label: "Russ Shomberg"
+
 
 
 feature_row5:
@@ -100,6 +112,9 @@ feature_row5:
 
 # PhD Students
 {% include feature_row %}
+
+# Masters Students
+{% include feature_row id="feature_row6" %}
 
 # Collaborators
 {% include feature_row id="feature_row3" %}
