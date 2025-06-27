@@ -1,3 +1,18 @@
+- date: 2025-06-12
+  description: >
+    Chris gave an invited talk at the [CVPR 2025 Workshop on Event-based Vision](https://tub-rip.github.io/eventvision2025/). 
+- date: 2025-06-11
+  description: >
+    [Flash-Split: 2D Reflection Removal with Flash Cues and Latent Diffusion Separation](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Flash-Split_2D_Reflection_Removal_with_Flash_Cues_and_Latent_Diffusion_CVPR_2025_paper.html) and [Repurposing Pre-trained Video Diffusion Models for Event-based Video Interpolation](https://vdm-evfi.github.io/) were presented at CVPR 2025. 
+- date: 2025-06-02
+  description: >
+    The lab hosted the [IEEE Computational Imaging with Synthetic Apertures (CISA) 2025](https://cisa-conference.org/) conference at UMD.
+- date: 2025-04-22
+  description: >
+    Sachin Shah, Anand Idris, and Adam Yang were awarded [National Defense Science and Engineering Graduate (NDSEG) Fellowships](https://www.cs.umd.edu/article/2025/04/three-umd-students-awarded-prestigious-department-defense-fellowships). Adam Yang also received an [NSF GRFP Fellowship](https://cmns.umd.edu/news-events/news/15-nsf-graduate-research-fellowships-2025).
+- date: 2025-04-07
+  description: >
+    Chris Received the UMD [CMNS Board of Visitors Junior Faculty Award](https://www.umiacs.umd.edu/news-events/news/metzler-receives-cmns-board-visitors-junior-faculty-award).
 - date: 2025-02-07
   description: >
     Matt Ziemann's paper on [designing low-probability-of-detect radar waveforms with machine learning](https://ieeexplore.ieee.org/document/10887245) was accepted into IEEE Transactions on Radar Systems.
