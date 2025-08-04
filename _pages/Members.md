@@ -67,6 +67,10 @@ feature_row6:
   - image_path: /assets/images/garner.jpg
     url: https://www.linkedin.com/in/garner-thompson-487416220/
     btn_label: "Garner Thompson"
+  - image_path: /assets/images/Nate.jpg
+    url: https://www.linkedin.com/in/nadula-kadawedduwa/
+    btn_label: "Nadula (Nate) Kadawedduwa"
+
 
 
 feature_row3:
