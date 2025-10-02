@@ -17,6 +17,7 @@ feature_row:
   - image_path: /assets/images/kevin.jpg
     url : "https://kevinwzhang.com"
     btn_label: "Kevin Zhang"
+    excerpt: "Lab webadmin"
 
   - image_path: /assets/images/mingyang.jpg
     url : "https://mingyangx.github.io"
