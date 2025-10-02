@@ -241,8 +241,7 @@
 
 .feature__wrapper {
   @include clearfix();
-  margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+  margin-bottom: 0.5em;
 
   .archive__item-title {
     margin-bottom: 0;
@@ -256,20 +255,19 @@
 
   @include breakpoint($small) {
     float: left;
-    margin-bottom: 0;
-    width: span(4 of 12);
+    margin-bottom: 0.75em; /* add a bit more space so underline doesn't clash */
+    width: span(2 of 12);
 
-    &:nth-child(3n + 1) {
+    &:nth-child(6n + 1) {
       clear: both;
       margin-left: 0;
     }
 
-    &:nth-child(3n + 2) {
-      clear: none;
-      margin-left: gutter(of 12);
-    }
-
-    &:nth-child(3n + 3) {
+    &:nth-child(6n + 2),
+    &:nth-child(6n + 3),
+    &:nth-child(6n + 4),
+    &:nth-child(6n + 5),
+    &:nth-child(6n + 6) {
       clear: none;
       margin-left: gutter(of 12);
     }
@@ -419,6 +417,40 @@
       }
     }
   }
+}
+
+/* Members page link styling: match masthead hover animation */
+.feature__wrapper .btn {
+  position: relative;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0; /* keep underline close to text */
+  color: $masthead-link-color;
+}
+
+.feature__wrapper .btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px; /* sit closer to text */
+  height: 2px; /* match nav thickness */
+  background: $danger-color; /* match nav red */
+  transform: scaleX(0);
+  transform-origin: center; /* grow from center */
+  transition: transform 0.18s ease-in-out;
+}
+
+.feature__wrapper .btn:hover,
+.feature__wrapper .btn:focus {
+  color: $masthead-link-color-hover;
+  text-decoration: none;
+}
+
+.feature__wrapper .btn:hover::after,
+.feature__wrapper .btn:focus::after {
+  transform: scaleX(1);
 }
 
 /* Place inside an archive layout */

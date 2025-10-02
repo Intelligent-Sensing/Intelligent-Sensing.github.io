@@ -338,3 +338,31 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* Overrides to remove remaining divider lines */
+.masthead,
+.masthead__inner-wrap,
+#site-nav,
+.greedy-nav {
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
+.page__content h2 {
+  border-bottom: 0 !important;
+}
+
+/* Footer bar overrides */
+.page__footer,
+.site-footer {
+  background-color: #fff !important;
+  color: $text-color !important;
+  margin-top: 0 !important;
+  border-top: 0 !important;
+  box-shadow: none !important;
+}
+
+.page__footer a,
+.site-footer a {
+  color: $text-color !important;
+}

@@ -1,8 +1,17 @@
 # Intelligent Sensing Lab Website
 
 ## Develop
+### Setup
+#### MacOS environment installation
+```shell
+brew install ruby
+```
+Add `export PATH="$(brew --prefix ruby)/bin:$PATH"` to `.bashrc` or `.zshrc` and restart shell.
 
-```sh
+Inside project root:
+```shell
+gem install bundler:2.4.22
+bundle install
 bundle exec jekyll serve
 ```
 

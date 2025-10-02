@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: " "
 # categories:
 #   - Post Formats
@@ -15,7 +15,7 @@ feature_row0:
 
 feature_row:
   - image_path: /assets/images/kevin.jpg
-    url : "https://www.kevinwzhang.com"
+    url : "https://kevinwzhang.com"
     btn_label: "Kevin Zhang"
 
   - image_path: /assets/images/mingyang.jpg

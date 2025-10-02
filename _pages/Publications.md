@@ -31,7 +31,7 @@ permalink: /Publications/
 	}
 
 	tr {
-		border-bottom: 1pt solid #8f8f8f;
+		border-bottom: none;
 	}
 	td {
 		border-bottom: none;
