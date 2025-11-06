@@ -35,6 +35,7 @@ feature_row:
   - image_path: /assets/images/Isabelle.JPEG
     url : "https://www.linkedin.com/in/isabelle-rathbun-b42225247/"
     btn_label: "Isabelle Rathbun"
+    excerpt: "NDSEG Fellow"
 
   - image_path: /assets/images/Janith.png
     url : "https://www.linkedin.com/in/janith-senanayaka"
@@ -45,24 +46,41 @@ feature_row:
   - image_path: /assets/images/sachin.jpeg
     url : "https://www.sachinshah.com"
     btn_label: "Sachin Shah"
+    excerpt: "NDSEG Fellow"
   - image_path: /assets/images/sanjaya.png
     url : "https://sanjayaherath.me/"
     btn_label: "Sanjaya Herath"
+    excerpt: "SMART Fellow"
   - image_path: /assets/images/Anand.jpg
     url : "https://www.linkedin.com/in/anand-idris/"
     btn_label: "Anand Idris"
+    excerpt: "NDSEG Fellow, McNair Fellow"
   - image_path: /assets/images/Hirad.jpeg
     url : "https://www.cs.umd.edu/people/hyazdan"
     btn_label: "Hirad Yazdankhah"
   - image_path: /assets/images/Tianfu.jfif
     url : "https://www.linkedin.com/in/tianfu-wang-083a85156/"
     btn_label: "Tianfu Wang"
+  - image_path: /assets/images/Andy.jpg
+    url : "https://apcurran21.github.io/"
+    btn_label: "Andy Curran"
+  - image_path: /assets/images/YuHsiang.jpg
+    url : "https://scholar.google.com/citations?user=Thkf-HgAAAAJ&hl=en&oi=sra"
+    btn_label: "Yu-Hsiang Huang"
+  - image_path: /assets/images/Bhuvanesh.jpg
+    url : "https://www.linkedin.com/in/bhuvanesh1/"
+    btn_label: "Bhuvanesh Murali"
+
 
 
 feature_row2:
   - image_path: /assets/images/Zhean.jfif
     url: https://www.linkedin.com/in/zhean-shen-53835388/
     btn_label: "Zhean Shen"
+  - image_path: /assets/images/Levi.jpg
+    url: https://www.aftersomemath.com/
+    btn_label: "Levi Burner"
+    excerpt: "MRC Fellow"
 
 feature_row6:
   - image_path: /assets/images/garner.jpg
