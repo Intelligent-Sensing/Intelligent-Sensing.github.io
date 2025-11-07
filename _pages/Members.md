@@ -113,7 +113,7 @@ feature_row5:
   - image_path: /assets/images/brandon.jpg
     url : "https://brandonyfeng.github.io/"
     btn_label: "Brandon Feng (2021-2023)"
-    excerpt: "Now Postdoc at MIT "
+    excerpt: "Postdoc at MIT, Now Faculty at UT Austin"
   - image_path: /assets/images/sazan.jpg
     url : "https://sites.google.com/view/smahbub"
     btn_label: "Sazan Mahbub (2021-2023)"
