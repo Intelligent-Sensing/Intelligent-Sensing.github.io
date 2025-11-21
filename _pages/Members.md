@@ -89,6 +89,9 @@ feature_row6:
   - image_path: /assets/images/Nate.jpg
     url: https://www.linkedin.com/in/nadula-kadawedduwa/
     btn_label: "Nadula (Nate) Kadawedduwa"
+  - image_path: /assets/images/Divya.jpg
+    url: https://www.cs.umd.edu/people/dkoganti
+    btn_label: "Divya Koganti"
 
 
 
