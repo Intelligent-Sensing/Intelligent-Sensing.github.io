@@ -9,7 +9,7 @@ authors:
     - Christopher A. Metzler
 links:
     paper: https://openaccess.thecvf.com/content/CVPR2024/html/Xie_WaveMo_Learning_Wavefront_Modulations_to_See_Through_Scattering_CVPR_2024_paper.html
-    project: https://wavemo-2024.github.io/
+    project: https://mingyangx.github.io/wavemo/
 venue: Conference on Computer Vision and Pattern Recognition (CVPR)
 date: 2024-06-01
 ---

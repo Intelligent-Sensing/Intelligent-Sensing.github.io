@@ -8,7 +8,7 @@ authors:
     - Christopher A. Metzler
 links:
     paper: https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Flash-Split_2D_Reflection_Removal_with_Flash_Cues_and_Latent_Diffusion_CVPR_2025_paper.pdf
-    project: https://flash-split.github.io/
+    project: https://mingyangx.github.io/Flash-Split/
 venue: Conference on Computer Vision and Pattern Recognition (CVPR)
 date: 2025-06-01
 ---

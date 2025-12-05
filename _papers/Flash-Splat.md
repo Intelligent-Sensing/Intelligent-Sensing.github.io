@@ -10,7 +10,7 @@ authors:
     - Christopher A. Metzler
 links:
     paper: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10739.pdf
-    project: https://flash-splat.github.io
+    project: https://mingyangx.github.io/Flash-Splat/
 venue: European Conference on Computer Vision (ECCV)
 date: 2024-09-29
 ---
