@@ -26,6 +26,17 @@ permalink: /Publications/
 		color: black;
 	}
 
+	.year-divider {
+		font-family: "Newsreader", Georgia, "Times New Roman", serif;
+		font-size: 1.5rem;
+		font-weight: 600;
+		color: #1a1a1a;
+		padding: 1.4rem 0 0.4rem;
+		border-bottom: 2px solid #1a1a1a;
+		margin: 0 0 0.6rem;
+	}
+	.year-divider.first { padding-top: 0.2rem; }
+
 	table {
 		border-collapse: collapse;
 	}
@@ -38,10 +49,18 @@ permalink: /Publications/
 	}
 </style>
 
+# Publications
+
 <table>
 <tbody>
-{% assign rev_papers = site.papers | reverse %}
+{% assign rev_papers = site.papers | sort: 'date' | reverse %}
+{% assign current_year = "" %}
 {% for paper in rev_papers %}
+{% assign py = paper.date | date: "%Y" %}
+{% if py != current_year %}
+{% assign current_year = py %}
+<tr><td colspan="2"><div class="year-divider{% if forloop.first %} first{% endif %}">{{ py }}</div></td></tr>
+{% endif %}
 <tr>
 	<td>
 	{% assign full_img_path = paper.slug | prepend: "/assets/images/papers/icons/" | append: ".webp" %}
@@ -61,7 +80,7 @@ permalink: /Publications/
 			{%- if author_info == nil -%}
 			<span class="author_info">{{ author }}</span>
 			{%- else -%}
-			<a class="author_info hoverable" href="{{ author_info.url }}" target="_blank">{{ author }}</a>
+			<span class="author_info">{{ author }}</span>
 			{%- endif -%}{%- if forloop.last -%}{%- else -%},{%- endif -%}
 		{% endfor %}
 		</span>

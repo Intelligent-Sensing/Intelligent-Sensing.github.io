@@ -22,7 +22,7 @@
 description: >- # this means to ignore newlines until "baseurl:"
   Intelligent Sensing Lab @ the University of Maryland, College Park
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://intelligent-sensing.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -30,10 +30,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
-  - _config.yml
   - jekyll-include-cache
+  - jekyll-sitemap
 
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: default
 title: Intelligent Sensing Lab
 logo: "/assets/images/logo.png"
 

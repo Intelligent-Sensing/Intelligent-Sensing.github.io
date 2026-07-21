@@ -112,14 +112,14 @@ layout: splash
 
 	<div style="width: 100%"><hr /></div>
 	<div id="cite" class="ripple">
-		<pre><code>@article{ {{ page.authors | first | remove: "*" | split: " " | last }}{{ page.date | date: "%Y" }}{{ page.slug | split: ":" | first | split: " " | first }},
+		{% assign officialbib = site.data.citations[page.slug] %}{% if officialbib %}<pre><code>{{ officialbib | escape }}</code></pre>{% else %}<pre><code>@article{ {{ page.authors | first | remove: "*" | split: " " | last }}{{ page.date | date: "%Y" }}{{ page.slug | split: ":" | first | split: " " | first }},
   author    = { {% for author in page.authors %}{% assign parts = author | remove: "*" | split: " " %}{{
 		parts.last }}, {{ parts.first }}{% if parts.size == 3 %} {{ parts[1] }}{%
 		endif %}{% if forloop.last %}{% else %} and {% endif %}{% endfor %} },
   title     = { {{ page.title }} },
   journal   = { {{ page.venue }} },
   year      = { {{  page.date | date: "%Y" }} },
-}</code></pre>
+}</code></pre>{% endif %}
 	</div>
 </div>
 

@@ -1,6 +1,46 @@
+- date: 2026-07-15
+  description: >
+    The lab will host the [2027 IEEE International Conference on Computational Photography (ICCP 2027)](https://iccp2027.iccp-conference.org/) at the University of Maryland.
+    <br><img class="news-photo" src="/assets/images/news/ICCP2027_Announcement.jpg" alt="ICCP 2027 to be hosted at the University of Maryland">
+- date: 2026-07-01
+  description: >
+    Chris was [promoted to Associate Professor with tenure](https://www.cs.umd.edu/article/2026/06/department-computer-science-announces-11-faculty-promotions) in the UMD Department of Computer Science.
+- date: 2026-06-15
+  description: >
+    Levi Burner received an [Intelligence Community (IC) Postdoctoral Research Fellowship](https://www.umiacs.umd.edu/news-events/news/burner-and-dessalene-earn-prestigious-intelligence-community-postdoctoral-research).
+    <br><img class="news-photo" src="/assets/images/news/LeviICFellowship.webp" alt="Levi Burner receives an IC Postdoctoral Research Fellowship">
+- date: 2026-05-22
+  description: >
+    Kevin Zhang graduated with his PhD and has joined [Waabi](https://waabi.ai/). Congratulations, Kevin!
+    <br><img class="news-photo" src="/assets/images/news/KevinGraduation.jpg" alt="Kevin Zhang PhD graduation">
+- date: 2026-07-13
+  description: >
+    The group attended the [IEEE International Conference on Computational Photography (ICCP) 2026](https://iccp2026.iccp-conference.org/).
+    <br><img class="news-photo" src="/assets/images/news/ICCP2026_GroupPhoto.jpg" alt="The group at ICCP 2026">
+- date: 2026-06-04
+  description: >
+    [LaVR: Scene Latent Conditioned Generative Video Trajectory Re-Rendering using Large 4D Reconstruction Models](https://arxiv.org/abs/2601.14674) was presented at CVPR 2026.
+- date: 2026-06-03
+  description: >
+    Chris gave an invited talk at the [CVPR 2026 Workshop on Computational Cameras and Displays (CCD)](https://alumni.media.mit.edu/~ayush/CCD/).
+- date: 2026-05-01
+  description: >
+    [Guidestar-Free Adaptive Optics with Asymmetric Apertures](https://weiyunjiang.com/guidestar-free-ao/) was accepted to ACM Transactions on Graphics and will be presented at SIGGRAPH 2026.
+- date: 2026-04-01
+  description: >
+    Chris served as a panelist ("Advice from Junior Faculty") at the [CRA Career Mentoring Workshop](https://cra.org/career-mentoring-workshop/).
+- date: 2026-03-06
+  description: >
+    [Gaussian Representations for Video](https://openaccess.thecvf.com/content/WACV2026/papers/Shah_Gaussian_Representations_for_Video_WACV_2026_paper.pdf) was presented at WACV 2026.
+- date: 2026-02-23
+  description: >
+    [Inverse Synthetic Aperture Fourier Ptychography](https://doi.org/10.1364/OE.571892) was published in Optics Express.
+- date: 2026-02-03
+  description: >
+    Chris gave two invited talks at [SPIE Photonics West 2026](https://spie.org/conferences-and-exhibitions/photonics-west): "Imaging Through Scattering with AI" and "Inverse Synthetic Aperture Computational Imaging".
 - date: 2025-06-12
   description: >
-    Chris gave an invited talk at the [CVPR 2025 Workshop on Event-based Vision](https://tub-rip.github.io/eventvision2025/). 
+    Chris gave an invited talk at the [CVPR 2025 Workshop on Event-based Vision](https://tub-rip.github.io/eventvision2025/).
 - date: 2025-06-11
   description: >
     [Flash-Split: 2D Reflection Removal with Flash Cues and Latent Diffusion Separation](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Flash-Split_2D_Reflection_Removal_with_Flash_Cues_and_Latent_Diffusion_CVPR_2025_paper.html) and [Repurposing Pre-trained Video Diffusion Models for Event-based Video Interpolation](https://vdm-evfi.github.io/) were presented at CVPR 2025. 

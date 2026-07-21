@@ -2,8 +2,14 @@
 main:
   - title: "Publications"
     url: /Publications/
-  - title: "Members"
-    url: /Members/
+  - title: "People"
+    url: /People/
+  - title: "Software & Datasets"
+    url: /Software/
+  - title: "Awards"
+    url: /Awards/
+  - title: "Open Positions"
+    url: /Openings/
   #- title: "News"
   #  url: /News/
   # - title: "Activities"

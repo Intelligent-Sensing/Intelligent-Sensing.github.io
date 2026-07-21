@@ -7,18 +7,13 @@ title: " "
 #   - gallery
 #   - Post Formats
 #   - tiled
-permalink: /Members/
+permalink: /People/
 feature_row0:
   - image_path: /assets/images/chris.jpg
     url: https://www.cs.umd.edu/~metzler/
     btn_label: "Chris Metzler"
 
 feature_row:
-  - image_path: /assets/images/kevin.jpg
-    url : "https://kevinwzhang.com"
-    btn_label: "Kevin Zhang"
-    excerpt: "Lab webadmin"
-
   - image_path: /assets/images/mingyang.jpg
     url : "https://mingyangx.github.io"
     btn_label: "Mingyang Xie"
@@ -70,6 +65,21 @@ feature_row:
   - image_path: /assets/images/Bhuvanesh.jpg
     url : "https://www.linkedin.com/in/bhuvanesh1/"
     btn_label: "Bhuvanesh Murali"
+  - image_path: /assets/images/garner.jpg
+    url: https://www.linkedin.com/in/garner-thompson-487416220/
+    btn_label: "Garner Thompson"
+  - image_path: /assets/images/kalyan.jpeg
+    url : "https://scholar.google.com/citations?user=oOtCkcUAAAAJ&hl=en"
+    btn_label: "Kalyan Bhetwal"
+  - image_path: /assets/images/CJ.avif
+    url : "https://www.linkedin.com/in/cj-nygard-31ab16224"
+    btn_label: "CJ Nygard"
+  - image_path: /assets/images/Clare.jfif
+    url : "https://www.linkedin.com/in/clare-yang/"
+    btn_label: "Clare Yang"
+  - image_path: /assets/images/Aden.jpg
+    url : "https://www.linkedin.com/in/aden-hageman/"
+    btn_label: "Aden Hageman"
 
 
 
@@ -80,15 +90,13 @@ feature_row2:
   - image_path: /assets/images/Levi.jpg
     url: https://www.aftersomemath.com/
     btn_label: "Levi Burner"
-    excerpt: "MRC Fellow"
+    excerpt: "MRC Fellow, IC Fellow"
+  - image_path: /assets/images/Sean.jpg
+    url: https://sfarrel1.github.io/
+    btn_label: "Sean Farrell"
+    excerpt: "Incoming postdoc from Rice"
 
 feature_row6:
-  - image_path: /assets/images/garner.jpg
-    url: https://www.linkedin.com/in/garner-thompson-487416220/
-    btn_label: "Garner Thompson"
-  - image_path: /assets/images/Nate.jpg
-    url: https://www.linkedin.com/in/nadula-kadawedduwa/
-    btn_label: "Nadula (Nate) Kadawedduwa"
   - image_path: /assets/images/Divya.jpg
     url: https://www.cs.umd.edu/people/dkoganti
     btn_label: "Divya Koganti"
@@ -113,40 +121,60 @@ feature_row3:
 
 
 feature_row5:
+  - image_path: /assets/images/kevin.jpg
+    url : "https://kevinwzhang.com"
+    btn_label: "Kevin Zhang (2021-2026)"
+    excerpt: "Waabi"
   - image_path: /assets/images/brandon.jpg
     url : "https://brandonyfeng.github.io/"
     btn_label: "Brandon Feng (2021-2023)"
-    excerpt: "Postdoc at MIT, Now Faculty at UT Austin"
+    excerpt: "Postdoc at MIT, Incoming Faculty at UT Austin"
+
+feature_row7:
+  - image_path: /assets/images/Nate.jpg
+    url: https://www.linkedin.com/in/nadula-kadawedduwa/
+    btn_label: "Nadula (Nate) Kadawedduwa (2024-2025)"
+    excerpt: "NIST"
   - image_path: /assets/images/sazan.jpg
     url : "https://sites.google.com/view/smahbub"
     btn_label: "Sazan Mahbub (2021-2023)"
-    excerpt: "Now PhD Student at CMU"
+    excerpt: "PhD Student at CMU"
   - image_path: /assets/images/sakshum.jpeg
     url : "https://www.linkedin.com/in/sakshum-kulshrestha/"
     btn_label: "Sakshum Kulshrestha (2021-2023) "
-    excerpt: "Now at Waymo"
+    excerpt: "Waymo"
   - image_path: /assets/images/rushil.jpg
     url : "https://rushiljoshi.com/"
     btn_label: "Rushil Joshi (2021-2023)"
-    excerpt: "Now at Booz Allen Hamilton"
+    excerpt: "Booz Allen Hamilton"
 ---
-# Principal Investigator
+# People
+
+## Principal Investigator
 {% include feature_row id="feature_row0" %}
 
-# Postdoctoral Researchers
+## Postdoctoral Researchers
 {% include feature_row id="feature_row2" %}
 
-# PhD Students
+## PhD Students
 {% include feature_row %}
 
-# Masters Students
+## Masters Students
 {% include feature_row id="feature_row6" %}
 
-# Collaborators
+## Collaborators
 {% include feature_row id="feature_row3" %}
 
 <!-- # Undergraduate Students
 {% include feature_row id="feature_row2" %} -->
 
-# Alumni
+## PhD Alumni
 {% include feature_row id="feature_row5" %}
+
+## Masters Alumni
+{% include feature_row id="feature_row7" %}
+
+## Undergraduate Alumni
+
+- **Daniel Pitzele** — Incoming PhD Student at UPenn
+- **Adam Yang** — PhD Student at MIT; NDSEG and NSF GRFP recipient

@@ -4,3 +4,148 @@ img_exists = site.static_files | where: "path", full_img_path %} {% if
 img_exists.size > 0 %}
 <link rel="icon" type="image/webp" href="{{ full_img_path }}" />
 {% endif %} {% endif %}
+
+<!-- ===== Intelligent Sensing Lab — clean academic theme override ===== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --ink: #1a1a1a;
+  --ink-soft: #4a4a4a;
+  --ink-faint: #757575;
+  --line: #e6e6e6;
+  --line-soft: #f0f0f0;
+  --bg: #ffffff;
+  --bg-alt: #fafafa;
+  --accent: #c8102e;        /* UMD red, used sparingly */
+  --accent-dark: #9c0c24;
+  --link: #b01126;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 28px rgba(0,0,0,.05);
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ---- Base typography & color ---- */
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.page__content { font-size: 1rem; }
+.page__content p, .page__content li { color: var(--ink-soft); }
+
+h1, h2, h3, h4, h5, h6,
+.page__title, .archive__item-title, .page__content h1,
+.page__content h2, .page__content h3, .page__content h4 {
+  font-family: var(--serif) !important;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--ink);
+  letter-spacing: -.01em;
+}
+.page__content h1 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); }
+.page__content h2 { font-size: clamp(1.4rem, 2.4vw, 1.9rem); border-bottom: 0; padding-bottom: 0; }
+
+a, .page__content a { color: var(--link); }
+a:hover, .page__content a:hover { color: var(--accent-dark); }
+
+/* ---- Masthead: clean sticky white bar with red active accent ---- */
+.masthead {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(255,255,255,.9) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+  backdrop-filter: saturate(180%) blur(10px);
+  border-bottom: 1px solid var(--line) !important;
+  -webkit-animation: none; animation: none;
+}
+.masthead__inner-wrap { padding-top: .8em; padding-bottom: .8em; }
+.greedy-nav { background: transparent !important; }
+.greedy-nav .site-title,
+.greedy-nav a.site-title { font-family: var(--serif) !important; font-weight: 600; color: var(--ink) !important; letter-spacing: -.01em; }
+.greedy-nav a {
+  font-family: var(--sans);
+  color: var(--ink-soft) !important;
+  font-size: .93rem; font-weight: 500;
+}
+.greedy-nav a:hover { color: var(--ink) !important; }
+.greedy-nav .visible-links a:before { background: var(--accent) !important; height: 2px; }
+.greedy-nav__toggle, .greedy-nav .navicon,
+.greedy-nav .navicon:before, .greedy-nav .navicon:after { background-color: var(--ink); }
+
+/* ---- Buttons ---- */
+.btn, .page__content .btn {
+  border-radius: 999px !important;
+  font-family: var(--sans);
+  font-weight: 600;
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  transition: .2s;
+}
+.btn:hover { background: var(--ink); color: #fff; }
+.btn--primary, .btn--info, .btn--success {
+  background: var(--accent) !important; border-color: var(--accent) !important; color: #fff !important;
+}
+.btn--primary:hover, .btn--info:hover, .btn--success:hover {
+  background: var(--accent-dark) !important; border-color: var(--accent-dark) !important;
+}
+
+/* ---- Tables (used on Publications page) ---- */
+.page__content table { font-family: var(--sans); font-size: .95rem; }
+.page__content th { background: var(--bg-alt); border-bottom: 2px solid var(--ink); font-family: var(--sans); }
+.page__content td { border-bottom: 1px solid var(--line-soft); }
+
+/* ---- Footer ---- */
+.page__footer { background: var(--bg-alt) !important; border-top: 1px solid var(--line); color: var(--ink-faint); }
+.page__footer a { color: var(--ink-soft) !important; }
+.page__footer-follow .social-icons .fa { color: var(--ink-faint); }
+
+/* ---- Splash hero image framing ---- */
+#main .archive__item-teaser { border-radius: var(--radius); }
+
+/* ---- Feature rows (Members page) ---- */
+.archive__item-title { font-size: 1rem; }
+.feature__item .archive__item-body { padding: .5em; }
+/* Member names as plain links (no pill/oval button) */
+.feature__item .btn {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: var(--ink) !important;
+  padding: 0 !important;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: .98rem;
+}
+.feature__item .btn:hover {
+  background: transparent !important;
+  color: var(--accent) !important;
+  text-decoration: none;
+}
+
+/* ---- Publications list: serif titles, refined thumbnails ---- */
+.page__content td.info > strong {
+  font-family: var(--serif) !important;
+  font-size: 1.12rem; font-weight: 600; color: var(--ink);
+  line-height: 1.3;
+}
+.paper_icon { border: 1px solid var(--line); box-shadow: var(--shadow); }
+
+/* ---- News photos ---- */
+#RecentNews .news-photo {
+  display: block;
+  max-width: min(420px, 100%);
+  height: auto;
+  margin: .7rem 0 .2rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+</style>

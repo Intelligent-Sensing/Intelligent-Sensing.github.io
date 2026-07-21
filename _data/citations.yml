@@ -1,0 +1,330 @@
+"AONeuS": |
+  @inproceedings{qadri2024aoneus,
+    title={Aoneus: A neural rendering framework for acoustic-optical sensor fusion},
+    author={Qadri, Mohamad and Zhang, Kevin and Hinduja, Akshay and Kaess, Michael and Pediredla, Adithya and Metzler, Christopher A},
+    booktitle={ACM SIGGRAPH 2024 Conference Papers},
+    pages={1--12},
+    year={2024}
+  }
+"AcousticNeuralPoseDrift": |
+  @inproceedings{lin2025acoustic,
+    title={Acoustic neural 3d reconstruction under pose drift},
+    author={Lin, Tianxiang and Qadri, Mohamad and Zhang, Kevin and Pediredla, Adithya and Metzler, Christopher A and Kaess, Michael},
+    booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    pages={12704--12711},
+    year={2025},
+    organization={IEEE}
+  }
+"Adaptive LPD Radar Waveform Design with Generative Adversarial Neural Networks": |
+  @inproceedings{ziemann2023adaptive,
+    title={Adaptive LPD radar waveform design with generative adversarial neural networks},
+    author={Ziemann, Matthew R and Metzler, Christopher A},
+    booktitle={2023 57th Asilomar Conference on Signals, Systems, and Computers},
+    pages={1039--1043},
+    year={2023},
+    organization={IEEE}
+  }
+"Adaptive LPD Radar Waveform Design with Generative Deep Learning": |
+  @article{ziemann2025adaptive,
+    title={Adaptive LPD radar waveform design with generative deep learning},
+    author={Ziemann, Matthew R and Metzler, Christopher A},
+    journal={IEEE Transactions on Radar Systems},
+    year={2025},
+    publisher={IEEE}
+  }
+"Adversarial Sensing for Sub-Diffraction Imaging": |
+  @inproceedings{feng2022adversarial,
+    title={Adversarial Sensing for Sub-Diffraction Imaging},
+    author={Feng, Brandon Y and Metzler, Christopher A},
+    booktitle={Computational Optical Sensing and Imaging},
+    pages={CF2C--3},
+    year={2022},
+    organization={Optica Publishing Group}
+  }
+"Adversarial Sensing": |
+  @inproceedings{feng2022adversarial,
+    title={Adversarial sensing: a learning-based approach to inverse problems with stochastic forward models},
+    author={Feng, Brandon Y and Xie, Mingyang and Metzler, Christopher A},
+    booktitle={Emerging Topics in Artificial Intelligence (ETAI) 2022},
+    volume={12204},
+    pages={111--115},
+    year={2022},
+    organization={SPIE}
+  }
+"BlindMulti-DistributionDenoising": |
+  @article{zhang2024scalable,
+    title={A Scalable Training Strategy for Blind Multi-Distribution Noise Removal},
+    author={Zhang, Kevin and Kulshrestha, Sakshum and Metzler, Christopher A},
+    journal={IEEE Transactions on Image Processing},
+    volume={33},
+    pages={6216--6226},
+    year={2024},
+    publisher={IEEE}
+  }
+"CodedEvents": |
+  @inproceedings{shah2024codedevents,
+    title={Codedevents: optimal point-spread-function engineering for 3d-tracking with event cameras},
+    author={Shah, Sachin and Chan, Matthew A and Cai, Haoming and Chen, Jingxi and Kulshrestha, Sakshum and Singh, Chahat Deep and Aloimonos, Yiannis and Metzler, Christopher A},
+    booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+    pages={25265--25275},
+    year={2024}
+  }
+"CodedVO": |
+  @article{shah2024codedvo,
+    title={CodedVO: Coded Visual Odometry},
+    author={Shah, Sachin and Rajyaguru, Naitri and Singh, Chahat Deep and Metzler, Christopher and Aloimonos, Yiannis},
+    journal={arXiv preprint arXiv:2407.18240},
+    year={2024}
+  }
+"ConVRT": |
+  @inproceedings{cai2024temporally,
+    title={Temporally Consistent Atmospheric Turbulence Mitigation with Neural Representations},
+    author={Cai, Haoming and Chen, Jingxi and Feng, Brandon Y and Jiang, Weiyun and Xie, Mingyang and Zhang, Kevin and Fermuller, Cornelia and Aloimonos, Yiannis and Veeraraghavan, Ashok and Metzler, Christopher},
+    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+    year={2024}
+  }
+"DNIS-4DWavefront": |
+  @article{lloyd20264d,
+    title={4D wavefront sensing using dynamic neural image sharpening},
+    author={Lloyd, Robert L and Hardy, Tyler J and Metzler, Christopher A and Spencer, Mark F and Pellizzari, Casey J},
+    journal={Journal of the Optical Society of America A},
+    volume={43},
+    number={7},
+    pages={C52--C60},
+    year={2026},
+    publisher={Optica Publishing Group}
+  }
+"Event3DGS": |
+  @inproceedings{xiong2024event3dgs,
+    title={Event3DGS: Event-Based 3D Gaussian Splatting for High-Speed Robot Egomotion},
+    author={Xiong, Tianyi and Wu, Jiayi and He, Botao and Fermuller, Cornelia and Aloimonos, Yiannis and Huang, Heng and Metzler, Christopher},
+    booktitle={8th Annual Conference on Robot Learning},
+    year={2024}
+  }
+"EventLightFieldTurbulence": |
+  @article{huang2026high,
+    title={High-speed Imaging through Turbulence with Event-based Light Fields},
+    author={Huang, Yu-Hsiang and Burner, Levi and Shah, Sachin and Qu, Ziyuan and Pediredla, Adithya and Metzler, Christopher A},
+    journal={arXiv preprint arXiv:2603.14023},
+    year={2026}
+  }
+"FPM-INR": |
+  @inproceedings{zhou2024fpm,
+    title={FPM-INR: Fourier ptychographic microscopy image stack reconstruction using implicit neural representation},
+    author={Zhou, Haowen and Feng, Brandon Y and Lin, Steven S and Guo, Haiyun and Liang, Mingshu and Metzler, Christopher A and Yang, Changhuei},
+    booktitle={Computational Optical Imaging and Artificial Intelligence in Biomedical Sciences},
+    pages={PC128570W},
+    year={2024},
+    organization={SPIE}
+  }
+"Flash-Splat": |
+  @inproceedings{xie2024flash,
+    title={Flash-splat: 3d reflection removal with flash cues and gaussian splats},
+    author={Xie, Mingyang and Cai, Haoming and Shah, Sachin and Xu, Yiran and Feng, Brandon Y and Huang, Jia-Bin and Metzler, Christopher A},
+    booktitle={European Conference on Computer Vision},
+    pages={122--139},
+    year={2024},
+    organization={Springer Nature Switzerland Cham}
+  }
+"Flash-Split": |
+  @inproceedings{wang2025flash,
+    title={Flash-split: 2d reflection removal with flash cues and latent diffusion separation},
+    author={Wang, Tianfu and Xie, Mingyang and Cai, Haoming and Shah, Sachin and Metzler, Christopher A},
+    booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+    pages={5688--5698},
+    year={2025}
+  }
+"GaRV": |
+  @inproceedings{shah2026gaussian,
+    title={Gaussian Representations for Video},
+    author={Shah, Sachin and Choudhury, Anustup and Su, Guan-Ming and Pytlarz, Jaclyn and Metzler, Christopher A and Mittal, Trisha},
+    booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+    pages={827--837},
+    year={2026}
+  }
+"GuidestarFreeAO": |
+  @article{jiang2026guidestar,
+    title={Guidestar-free adaptive optics with asymmetric apertures},
+    author={Jiang, Weiyun and Guo, Haiyun and Metzler, Christopher A and Veeraraghavan, Ashok},
+    journal={ACM Transactions on Graphics},
+    volume={45},
+    number={5},
+    pages={1--17},
+    year={2026},
+    publisher={ACM New York, NY}
+  }
+"Hyper-Diffusion": |
+  @inproceedings{chan2024estimating,
+    title={Estimating Epistemic and Aleatoric Uncertainty with a Single Model},
+    author={Chan, Matthew Albert and Molina, Maria J and Metzler, Christopher},
+    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+    year={2024}
+  }
+"ISA-FP": |
+  @article{chan2026inverse,
+    title={Inverse synthetic aperture Fourier ptychography},
+    author={Chan, Matthew A and Pellizzari, Casey J and Metzler, Christopher A},
+    journal={Optics Express},
+    volume={34},
+    number={4},
+    pages={6498--6512},
+    year={2026},
+    publisher={Optica Publishing Group}
+  }
+"KeyholeImaging": |
+  @article{metzler2020keyhole,
+    title={Keyhole imaging: non-line-of-sight imaging and tracking of moving objects along a single optical path},
+    author={Metzler, Christopher A and Lindell, David B and Wetzstein, Gordon},
+    journal={IEEE Transactions on Computational Imaging},
+    volume={7},
+    pages={1--12},
+    year={2020},
+    publisher={IEEE}
+  }
+"LaVR": |
+  @article{xie2026lavr,
+    title={LaVR: Scene Latent Conditioned Generative Video Trajectory Re-Rendering using Large 4D Reconstruction Models},
+    author={Xie, Mingyang and Khan, Numair and Wang, Tianfu and Dhingra, Naina and Nam, Seonghyeon and Yang, Haitao and Hui, Zhuo and Metzler, Christopher and Vedaldi, Andrea and Pirsiavash, Hamed and others},
+    journal={arXiv preprint arXiv:2601.14674},
+    year={2026}
+  }
+"Multimodal Neural Surface Reconstruction": |
+  @inproceedings{mahbub2023multimodal,
+    title={Multimodal neural surface reconstruction: Recovering the geometry and appearance of 3d scenes from events and grayscale images},
+    author={Mahbub, Sazan and Feng, Brandon and Metzler, Christopher},
+    booktitle={NeurIPS 2023 Workshop on Deep Learning and Inverse Problems},
+    year={2023}
+  }
+"NeuWS": |
+  @article{feng2023neuws,
+    title={NeuWS: Neural wavefront shaping for guidestar-free imaging through static and dynamic scattering media},
+    author={Feng, Brandon Y and Guo, Haiyun and Xie, Mingyang and Boominathan, Vivek and Sharma, Manoj K and Veeraraghavan, Ashok and Metzler, Christopher A},
+    journal={Science Advances},
+    volume={9},
+    number={26},
+    pages={eadg4671},
+    year={2023},
+    publisher={American Association for the Advancement of Science}
+  }
+"Neural Wavefront Shaping in the Photon-Starved Regime": |
+  @inproceedings{feng2023neural,
+    title={Neural Wavefront Shaping in the Photon-Starved Regime},
+    author={Feng, Brandon Y and Guo, Haiyun and Xie, Mingyang and Boominathan, Vivek and Sharma, Manoj K and Veeraraghavan, Ashok and Metzler, Christopher A},
+    booktitle={Computational Optical Sensing and Imaging},
+    pages={CW4B--3},
+    year={2023},
+    organization={Optica Publishing Group}
+  }
+"NeuromorphicADCs": |
+  @inproceedings{herath2024high,
+    title={High-resolution range profile target recognition with neuromorphic adcs and spiking neural networks},
+    author={Herath, Sanjaya and Ziemann, Matthew R and Wagner, Kevin and Metzler, Christopher A},
+    booktitle={2024 IEEE Radar Conference (RadarConf24)},
+    pages={1--6},
+    year={2024},
+    organization={IEEE}
+  }
+"ParametricShadowControl": |
+  @inproceedings{cai2025parametric,
+    title={Parametric shadow control for portrait generation in text-to-image diffusion models},
+    author={Cai, Haoming and Huang, Tsung-Wei and Gehlot, Shiv and Feng, Brandon Y and Shah, Sachin and Su, Guan-Ming and Metzler, Christopher},
+    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+    pages={18207--18217},
+    year={2025}
+  }
+"PolarDepth": |
+  @article{rajyaguru2026polardepth,
+    title={PolarDepth: Polarization-Guided Monocular Depth for Visual Odometry},
+    author={Rajyaguru, Naitri and Wang, Tianfu and Tajne, Aryan and He, Botao and Wu, Jiayi and Fermuller, Cornellia and Metzler, Christopher and Aloimonos, Yiannis},
+    journal={IEEE Robotics and Automation Letters},
+    year={2026},
+    publisher={IEEE}
+  }
+"RE-VDM": |
+  @inproceedings{chen2025repurposing,
+    title={Repurposing pre-trained video diffusion models for event-based video interpolation},
+    author={Chen, Jingxi and Feng, Brandon Y and Cai, Haoming and Wang, Tianfu and Burner, Levi and Yuan, Dehao and Fermuller, Cornelia and Metzler, Christopher A and Aloimonos, Yiannis},
+    booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+    pages={12456--12466},
+    year={2025}
+  }
+"SLURPP": |
+  @article{wu2025single,
+    title={Single-step latent diffusion for underwater image restoration},
+    author={Wu, Jiayi and Wang, Tianfu and Siddique, Md Abu Bakr and Islam, Md Jahidul and Fermuller, Cornelia and Aloimonos, Yiannis and Metzler, Christopher A},
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    year={2025},
+    publisher={IEEE}
+  }
+"SUD2": |
+  @article{chan2023sud,
+    title={SUD $\^{} 2$: Supervision by Denoising Diffusion Models for Image Reconstruction},
+    author={Chan, Matthew A and Young, Sean I and Metzler, Christopher A},
+    journal={arXiv preprint arXiv:2303.09642},
+    year={2023}
+  }
+"Seeing the World through Your Eyes": |
+  @inproceedings{alzayer2024seeing,
+    title={Seeing the world through your eyes},
+    author={Alzayer, Hadi and Zhang, Kevin and Feng, Brandon and Metzler, Christopher A and Huang, Jia-Bin},
+    booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+    pages={4864--4873},
+    year={2024}
+  }
+"ShutterEvents": |
+  @article{batagoda2026shutterevents,
+    title={ShutterEvents: Shutter Modulation for Static-Dynamic Scene Recovery},
+    author={Batagoda, Nevindu M and Bhaskara, Ramchander Rao and Metzler, Christopher and Pediredla, Adithya},
+    year={2026},
+    publisher={IEEE}
+  }
+"TiDy-PSFs": |
+  @inproceedings{shah2023tidy,
+    title={Tidy-psfs: Computational imaging with time-averaged dynamic point-spread-functions},
+    author={Shah, Sachin and Kulshrestha, Sakshum and Metzler, Christopher A},
+    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+    pages={10657--10667},
+    year={2023}
+  }
+"Transformers for Robust Radar Waveform Classification": |
+  @inproceedings{ziemann2022transformers,
+    title={Transformers for robust radar waveform classification},
+    author={Ziemann, Matthew R and Metzler, Christopher A},
+    booktitle={2022 56th Asilomar Conference on Signals, Systems, and Computers},
+    pages={759--763},
+    year={2022},
+    organization={IEEE}
+  }
+"Turbugan": |
+  @article{feng2023turbugan,
+    title={Turbugan: An adversarial learning approach to spatially-varying multiframe blind deconvolution with applications to imaging through turbulence},
+    author={Feng, Brandon Y and Xie, Mingyang and Metzler, Christopher A},
+    journal={IEEE Journal on Selected Areas in Information Theory},
+    volume={3},
+    number={3},
+    pages={543--556},
+    year={2023},
+    publisher={IEEE}
+  }
+"WaterGen": |
+  @article{wu2026watergen,
+    title={WaterGen: Decoupling Scene and Medium in Underwater Image Generation},
+    author={Wu, Jiayi and Wang, Tianfu and Xiong, Tianyi and Yuan, Dehao and Lin, Xiaomin and Islam, Md Jahidul and Fermuller, Cornelia and Metzler, Christopher and Aloimonos, Yiannis},
+    journal={arXiv preprint arXiv:2606.31147},
+    year={2026}
+  }
+"WaveMo": |
+  @inproceedings{xie2024wavemo,
+    title={WaveMo: learning wavefront modulations to see through scattering},
+    author={Xie, Mingyang and Guo, Haiyun and Feng, Brandon Y and Jin, Lingbo and Veeraraghavan, Ashok and Metzler, Christopher A},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    pages={25276--25285},
+    year={2024}
+  }
+"Weakly-Supervised Semantic Segmentation of Ships Using Thermal Imagery": |
+  @article{joshi2022weakly,
+    title={Weakly-supervised semantic segmentation of ships using thermal imagery},
+    author={Joshi, Rushil and Adams, Ethan and Ziemann, Matthew and Metzler, Christopher A},
+    journal={arXiv preprint arXiv:2212.13170},
+    year={2022}
+  }
