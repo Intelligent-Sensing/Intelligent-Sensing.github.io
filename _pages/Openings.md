@@ -68,6 +68,8 @@ To apply, email **metzler [at] umd.edu** with:
 - Your CV and a link to Google Scholar
 - A short description of your research interests and how they connect to the lab
 - Names of two or more references
+
+Please note: because of funding restrictions, many of our current openings are regrettably limited to U.S. citizens.
 </div>
 
 <div class="position-card" markdown="1">

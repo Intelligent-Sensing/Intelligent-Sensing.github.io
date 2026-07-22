@@ -48,6 +48,11 @@ permalink: /Software/
     <div class="sw-links"><a href="https://github.com/WeiyunJiang/guidestar-free-ao" target="_blank" rel="noopener">code</a></div>
   </div>
   <div class="sw-item">
+    <h3><a href="https://github.com/mingyangx/wavemo" target="_blank" rel="noopener">WaveMo: Learning Wavefront Modulations to See Through Scattering</a></h3>
+    <p>Code for learning wavefront modulations that improve imaging through scattering media.</p>
+    <div class="sw-links"><a href="https://github.com/mingyangx/wavemo" target="_blank" rel="noopener">code</a></div>
+  </div>
+  <div class="sw-item">
     <h3><a href="https://github.com/kongdai123/SLURPP" target="_blank" rel="noopener">SLURPP: Single-Step Latent Diffusion for Underwater Image Restoration</a></h3>
     <p>Code for single-step latent-diffusion underwater image restoration, plus the physics-based synthetic underwater image-generation pipeline.</p>
     <div class="sw-links"><a href="https://github.com/kongdai123/SLURPP" target="_blank" rel="noopener">code</a></div>
@@ -147,9 +152,9 @@ permalink: /Software/
 <h2 class="sw-theme">Reflection Separation</h2>
 <div class="sw-list">
   <div class="sw-item">
-    <h3><a href="https://flash-split.github.io/" target="_blank" rel="noopener">Flash-Split: 2D Reflection Removal with Flash Cues and Latent Diffusion</a></h3>
+    <h3><a href="https://mingyangx.github.io/Flash-Split/" target="_blank" rel="noopener">Flash-Split: 2D Reflection Removal with Flash Cues and Latent Diffusion</a></h3>
     <p>Code and data for separating transmitted and reflected light from a (potentially misaligned) flash/no-flash image pair using latent diffusion.</p>
-    <div class="sw-links"><a href="https://flash-split.github.io/" target="_blank" rel="noopener">project</a></div>
+    <div class="sw-links"><a href="https://mingyangx.github.io/Flash-Split/" target="_blank" rel="noopener">project</a></div>
   </div>
   <div class="sw-item">
     <h3><a href="https://github.com/mingyangx/flash-splat" target="_blank" rel="noopener">Flash-Splat: 3D Reflection Removal with Flash Cues and Gaussian Splats</a></h3>
