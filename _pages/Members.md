@@ -100,6 +100,9 @@ feature_row6:
   - image_path: /assets/images/Divya.jpg
     url: https://www.cs.umd.edu/people/dkoganti
     btn_label: "Divya Koganti"
+  - image_path: /assets/images/MaxLi.jpg
+    url: https://www.linkedin.com/in/max-li-5860b1204/
+    btn_label: "Max Li"
 
 
 
