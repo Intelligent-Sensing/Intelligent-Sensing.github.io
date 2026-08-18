@@ -23,7 +23,7 @@ feature_row:
     btn_label: "Matt Chan"
 
   - image_path: /assets/images/matt_z.jpg
-    url : "https://www.cs.umd.edu/people/mrziema2"
+    url : "https://www.linkedin.com/in/mrziemann"
     btn_label: "Matt Ziemann"
 
 
